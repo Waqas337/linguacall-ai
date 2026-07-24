@@ -16,7 +16,6 @@
 
 | Platform | Link |
 |----------|------|
-| 🌐 **Web App** | *Coming Soon — will be updated* |
 | 📱 **Android APK** | [Download APK from Releases](../../releases/latest) |
 | 📂 **Source Code** | [github.com/Waqas337/linguacall-ai](https://github.com/Waqas337/linguacall-ai) |
 
@@ -54,6 +53,7 @@ Password: 123456
 |---------|-------------|
 | 🔐 **Authentication** | Firebase email/password login & signup |
 | 📞 **Video Calling** | Real-time peer-to-peer WebRTC calls |
+| ⚙️ **Preferred Language** | Change your language in Settings — translation in calls and chat updates automatically |
 | 🎙️ **Live Captions** | Speech-to-text via Deepgram during calls |
 | 🌍 **Auto Translation** | Google Translate — 10 languages |
 | 🔊 **Voice Output** | Translated text spoken via Flutter TTS |
@@ -198,14 +198,38 @@ Flutter Mobile App
 
 ## 🧪 How to Test the Calling Feature
 
+### Step 1 — Setup
 1. Open the app on **two devices** (or two browser tabs for web)
 2. Login with **Caller Account** on Device 1
 3. Login with **Receiver Account** on Device 2
-4. On Device 1 → Enter receiver's **6-digit number** → Start Call
-5. On Device 2 → Accept the incoming call
-6. Allow **microphone & camera** permissions
-7. Speak from caller side → Watch **live captions** on receiver side
-8. Test **mute**, **camera toggle**, **chat**, **disconnect**
+
+### Step 2 — Change Preferred Language
+4. On **Device 1** → Go to **Settings** → Select your language (e.g. English)
+5. On **Device 2** → Go to **Settings** → Select a different language (e.g. Urdu or Chinese)
+> ✅ This ensures translation happens during both calls and chat
+
+### Step 3 — Make a Call
+6. On Device 1 → Enter receiver's **6-digit number** → Tap **Call**
+7. On Device 2 → Accept the **incoming call**
+8. Allow **microphone & camera** permissions on both devices
+
+### Step 4 — Test AI Translation
+9. Speak from **caller side** in your language
+10. Watch **live captions** appear on receiver's screen in their language
+11. If **Voice Over** is ON in Settings → receiver will also **hear** the translation
+
+### Step 5 — Test Chat
+12. Open **Chat** during or after call
+13. Type a message in your language
+14. Receiver sees the message **automatically translated** in their language
+15. Both original and translated text are visible
+
+### Step 6 — Test Controls
+16. Test **Mute** / **Unmute** microphone
+17. Test **Camera ON/OFF** toggle
+18. Test **Disconnect** call button
+
+> 💡 **Tip:** Set caller language to English and receiver language to Urdu or Chinese for best translation demo.
 
 ---
 
@@ -299,7 +323,6 @@ APK output: `build/app/outputs/flutter-apk/app-release.apk`
 Flutter Developer  
 Project: LinguaCall AI — WebRTC Real-Time Translation Calling App  
 Submission: Final Project — Ship Your AI App  
-Deadline: 27 July 2026
 
 ---
 
