@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "178650524612",
+    "project_id": "webrtc-calling-51307",
+    "storage_bucket": "webrtc-calling-51307.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:178650524612:android:a036dc6bf47faf1bf45291",
+        "android_client_info": {
+          "package_name": "com.example.webrtc_call_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB4lzOx-id8FLnrXxjioM5cnZIBgrCon2E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:178650524612:android:4c2774c6aa6520c0f45291",
+        "android_client_info": {
+          "package_name": "dev.flutterexplained.webrtc_tutorial"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB4lzOx-id8FLnrXxjioM5cnZIBgrCon2E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
