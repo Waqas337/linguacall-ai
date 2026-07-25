@@ -1,0 +1,6 @@
+[
+    {
+        "merged": "io.flutter.plugins.firebase.core.firebase_core-release-31:/raw/firebase_common_keep.xml",
+        "source": "io.flutter.plugins.firebase.core.firebase_core-jetified-firebase-common-22.0.1-10:/raw/firebase_common_keep.xml"
+    }
+]
