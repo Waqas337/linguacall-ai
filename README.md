@@ -87,6 +87,8 @@ Password: 123456
   <img src="screenshots/contacts_page.jpeg" width="180" alt="Contacts"/>
   &nbsp;
   <img src="screenshots/chat_page.jpeg" width="180" alt="Chat"/>
+  &nbsp;
+  <img src="screenshots/call_screen.jpeg" width="180" alt="Call Screen"/>
 </p>
 
 ### Settings & Profile
