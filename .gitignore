@@ -56,4 +56,4 @@ service-account.json
 *.pem
 *.p12
 *.jks
-key.properties
+key.propertiesbuild/app/
